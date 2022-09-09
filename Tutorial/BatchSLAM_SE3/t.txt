@@ -1,0 +1,1546 @@
+Adding poses...
+Adding odom edges...
+Adding ldmk...
+observation edges...
+GRAPH START : 
+
+ NonlinearFactorGraph: size: 191
+
+Factor 0: PriorFactor on x0
+  prior mean:  R: [
+	3.33067e-16, 0, 1;
+	0, 1, 0;
+	-1, 0, 3.33067e-16
+]
+t: 50 50 50
+isotropic dim=6 sigma=2
+
+Factor 1: BetweenFactor(x0,x1)
+  measured:  R: [
+	1, 0, 1.11022e-16;
+	0, 1, 0;
+	-1.11022e-16, 0, 1
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 2: BetweenFactor(x1,x2)
+  measured:  R: [
+	1, -0, -1.11022e-16;
+	0, 1, -0;
+	1.11022e-16, 0, 1
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 3: BetweenFactor(x2,x3)
+  measured:  R: [
+	1, 0, 1.11022e-16;
+	0, 1, 0;
+	-1.11022e-16, 0, 1
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 4: BetweenFactor(x3,x4)
+  measured:  R: [
+	1, -0, -1.11022e-16;
+	0, 1, -0;
+	1.11022e-16, 0, 1
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 5: BetweenFactor(x4,x5)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 6: BetweenFactor(x5,x6)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 7: BetweenFactor(x6,x7)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 7.10543e-15 7.10543e-15         0.5
+isotropic dim=6 sigma=2
+
+Factor 8: BetweenFactor(x7,x8)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 9: BetweenFactor(x8,x9)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 10: BetweenFactor(x9,x10)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 11: BetweenFactor(x10,x11)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -1.42109e-14            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 12: BetweenFactor(x11,x12)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 13: BetweenFactor(x12,x13)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -1.42109e-14            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 14: BetweenFactor(x13,x14)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -1.42109e-14            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 15: BetweenFactor(x14,x15)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -1.42109e-14 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 16: BetweenFactor(x15,x16)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:           0 7.10543e-15         0.5
+isotropic dim=6 sigma=2
+
+Factor 17: BetweenFactor(x16,x17)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 18: BetweenFactor(x17,x18)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -1.42109e-14            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 19: BetweenFactor(x18,x19)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	-0.00497485, 0.00502492, 0.999975;
+	-0.00502492, -0.999975, 0.00499992
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 20: BetweenFactor(x19,x20)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:           0 7.10543e-15         0.5
+isotropic dim=6 sigma=2
+
+Factor 21: BetweenFactor(x20,x21)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 7.10543e-15           0         0.5
+isotropic dim=6 sigma=2
+
+Factor 22: BetweenFactor(x21,x22)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:            0 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 23: BetweenFactor(x22,x23)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 7.10543e-15           0         0.5
+isotropic dim=6 sigma=2
+
+Factor 24: BetweenFactor(x23,x24)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15  7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 25: BetweenFactor(x24,x25)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 7.10543e-15           0         0.5
+isotropic dim=6 sigma=2
+
+Factor 26: BetweenFactor(x25,x26)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:           0 7.10543e-15         0.5
+isotropic dim=6 sigma=2
+
+Factor 27: BetweenFactor(x26,x27)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 28: BetweenFactor(x27,x28)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:  7.10543e-15 -1.42109e-14          0.5
+isotropic dim=6 sigma=2
+
+Factor 29: BetweenFactor(x28,x29)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15  7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 30: BetweenFactor(x29,x30)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 31: BetweenFactor(x30,x31)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:           0 1.42109e-14         0.5
+isotropic dim=6 sigma=2
+
+Factor 32: BetweenFactor(x31,x32)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 1.42109e-14           0         0.5
+isotropic dim=6 sigma=2
+
+Factor 33: BetweenFactor(x32,x33)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 34: BetweenFactor(x33,x34)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 7.10543e-15           0         0.5
+isotropic dim=6 sigma=2
+
+Factor 35: BetweenFactor(x34,x35)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15  7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 36: BetweenFactor(x35,x36)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 37: BetweenFactor(x36,x37)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:           0 7.10543e-15         0.5
+isotropic dim=6 sigma=2
+
+Factor 38: BetweenFactor(x37,x38)
+  measured:  R: [
+	-0.00499992, 2.49998e-05, 0.999988;
+	0.00999977, 0.99995, 2.49998e-05;
+	-0.999938, 0.00999977, -0.00499992
+]
+t:            0 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 39: BetweenFactor(x38,x39)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 40: BetweenFactor(x39,x40)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -1.42109e-14  1.42109e-14          0.5
+isotropic dim=6 sigma=2
+
+Factor 41: BetweenFactor(x40,x41)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 1.42109e-14           0         0.5
+isotropic dim=6 sigma=2
+
+Factor 42: BetweenFactor(x41,x42)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 1.42109e-14 2.13163e-14         0.5
+isotropic dim=6 sigma=2
+
+Factor 43: BetweenFactor(x42,x43)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 44: BetweenFactor(x43,x44)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:           0 7.10543e-15         0.5
+isotropic dim=6 sigma=2
+
+Factor 45: BetweenFactor(x44,x45)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 1.42109e-14           0         0.5
+isotropic dim=6 sigma=2
+
+Factor 46: BetweenFactor(x45,x46)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -1.42109e-14 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 47: BetweenFactor(x46,x47)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:            0 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 48: BetweenFactor(x47,x48)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 1.42109e-14 1.42109e-14         0.5
+isotropic dim=6 sigma=2
+
+Factor 49: BetweenFactor(x48,x49)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 50: BetweenFactor(x49,x50)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -1.42109e-14            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 51: BetweenFactor(x50,x51)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:            0 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 52: BetweenFactor(x51,x52)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -1.42109e-14 -1.42109e-14          0.5
+isotropic dim=6 sigma=2
+
+Factor 53: BetweenFactor(x52,x53)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:           0 7.10543e-15         0.5
+isotropic dim=6 sigma=2
+
+Factor 54: BetweenFactor(x53,x54)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 55: BetweenFactor(x54,x55)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:           0 7.10543e-15         0.5
+isotropic dim=6 sigma=2
+
+Factor 56: BetweenFactor(x55,x56)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:            0 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 57: BetweenFactor(x56,x57)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	-0.00497485, 0.00502492, 0.999975;
+	-0.00502492, -0.999975, 0.00499992
+]
+t:           0 7.10543e-15         0.5
+isotropic dim=6 sigma=2
+
+Factor 58: BetweenFactor(x57,x58)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -1.42109e-14 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 59: BetweenFactor(x58,x59)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15  7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 60: BetweenFactor(x59,x60)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 61: BetweenFactor(x60,x61)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 62: BetweenFactor(x61,x62)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 7.10543e-15           0         0.5
+isotropic dim=6 sigma=2
+
+Factor 63: BetweenFactor(x62,x63)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15  7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 64: BetweenFactor(x63,x64)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 65: BetweenFactor(x64,x65)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:            0 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 66: BetweenFactor(x65,x66)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 7.10543e-15           0         0.5
+isotropic dim=6 sigma=2
+
+Factor 67: BetweenFactor(x66,x67)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 68: BetweenFactor(x67,x68)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 69: BetweenFactor(x68,x69)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 70: BetweenFactor(x69,x70)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 7.10543e-15           0         0.5
+isotropic dim=6 sigma=2
+
+Factor 71: BetweenFactor(x70,x71)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 1.42109e-14 7.10543e-15         0.5
+isotropic dim=6 sigma=2
+
+Factor 72: BetweenFactor(x71,x72)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:  7.10543e-15 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 73: BetweenFactor(x72,x73)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 74: BetweenFactor(x73,x74)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:            0 -1.42109e-14          0.5
+isotropic dim=6 sigma=2
+
+Factor 75: BetweenFactor(x74,x75)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 76: BetweenFactor(x75,x76)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	-0.00497485, 0.00502492, 0.999975;
+	-0.00502492, -0.999975, 0.00499992
+]
+t:            0 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 77: BetweenFactor(x76,x77)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:           0 7.10543e-15         0.5
+isotropic dim=6 sigma=2
+
+Factor 78: BetweenFactor(x77,x78)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 7.10543e-15           0         0.5
+isotropic dim=6 sigma=2
+
+Factor 79: BetweenFactor(x78,x79)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 1.42109e-14 1.42109e-14         0.5
+isotropic dim=6 sigma=2
+
+Factor 80: BetweenFactor(x79,x80)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 81: BetweenFactor(x80,x81)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:  7.10543e-15 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 82: BetweenFactor(x81,x82)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 83: BetweenFactor(x82,x83)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 84: BetweenFactor(x83,x84)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 85: BetweenFactor(x84,x85)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -7.10543e-15            0          0.5
+isotropic dim=6 sigma=2
+
+Factor 86: BetweenFactor(x85,x86)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 7.10543e-15           0         0.5
+isotropic dim=6 sigma=2
+
+Factor 87: BetweenFactor(x86,x87)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:           0 7.10543e-15         0.5
+isotropic dim=6 sigma=2
+
+Factor 88: BetweenFactor(x87,x88)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 1.42109e-14           0         0.5
+isotropic dim=6 sigma=2
+
+Factor 89: BetweenFactor(x88,x89)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -1.42109e-14 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 90: BetweenFactor(x89,x90)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:  7.10543e-15 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 91: BetweenFactor(x90,x91)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: -1.42109e-14 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 92: BetweenFactor(x91,x92)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:            0 -7.10543e-15          0.5
+isotropic dim=6 sigma=2
+
+Factor 93: BetweenFactor(x92,x93)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t: 7.10543e-15 1.42109e-14         0.5
+isotropic dim=6 sigma=2
+
+Factor 94: BetweenFactor(x93,x94)
+  measured:  R: [
+	0.999975, -0.00499992, 0.00499998;
+	0.00502492, 0.999975, -0.00499992;
+	-0.00497485, 0.00502492, 0.999975
+]
+t:   0   0 0.5
+isotropic dim=6 sigma=2
+
+Factor 95: BetweenFactor(x94,x95)
+  measured:  R: [
+	-0.00499992, 2.49998e-05, 0.999988;
+	0.00999977, 0.99995, 2.49998e-05;
+	-0.999938, 0.00999977, -0.00499992
+]
+t: 7.10543e-15 7.10543e-15         0.5
+isotropic dim=6 sigma=2
+
+Factor 96: GenericProjectionFactor, z = [
+	214.766;
+	217.474
+]
+  keys = { x0 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 97: GenericProjectionFactor, z = [
+	210.323;
+	216.507
+]
+  keys = { x1 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 98: GenericProjectionFactor, z = [
+	205.49;
+	215.454
+]
+  keys = { x2 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 99: GenericProjectionFactor, z = [
+	200.213;
+	214.305
+]
+  keys = { x3 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 100: GenericProjectionFactor, z = [
+	194.429;
+	213.046
+]
+  keys = { x4 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 101: GenericProjectionFactor, z = [
+	188.061;
+	211.659
+]
+  keys = { x5 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 102: GenericProjectionFactor, z = [
+	181.015;
+	210.124
+]
+  keys = { x6 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 103: GenericProjectionFactor, z = [
+	173.177;
+	208.417
+]
+  keys = { x7 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 104: GenericProjectionFactor, z = [
+	164.406;
+	206.507
+]
+  keys = { x8 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 105: GenericProjectionFactor, z = [
+	154.525;
+	204.356
+]
+  keys = { x9 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 106: GenericProjectionFactor, z = [
+	143.308;
+	201.913
+]
+  keys = { x10 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 107: GenericProjectionFactor, z = [
+	130.464;
+	199.116
+]
+  keys = { x11 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 108: GenericProjectionFactor, z = [
+	115.614;
+	195.882
+]
+  keys = { x12 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 109: GenericProjectionFactor, z = [
+	98.2457;
+	192.1
+]
+  keys = { x13 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 110: GenericProjectionFactor, z = [
+	77.66;
+	187.617
+]
+  keys = { x14 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 111: GenericProjectionFactor, z = [
+	52.8718;
+	182.219
+]
+  keys = { x15 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 112: GenericProjectionFactor, z = [
+	22.4476;
+	175.593
+]
+  keys = { x16 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 113: GenericProjectionFactor, z = [
+	-15.7811;
+	167.268
+]
+  keys = { x17 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 114: GenericProjectionFactor, z = [
+	-65.2592;
+	156.493
+]
+  keys = { x18 l0 }
+isotropic dim=2 sigma=1000
+
+Factor 115: GenericProjectionFactor, z = [
+	237.046;
+	196.667
+]
+  keys = { x19 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 116: GenericProjectionFactor, z = [
+	233.254;
+	194.675
+]
+  keys = { x20 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 117: GenericProjectionFactor, z = [
+	229.102;
+	192.494
+]
+  keys = { x21 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 118: GenericProjectionFactor, z = [
+	224.534;
+	190.095
+]
+  keys = { x22 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 119: GenericProjectionFactor, z = [
+	219.486;
+	187.443
+]
+  keys = { x23 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 120: GenericProjectionFactor, z = [
+	213.877;
+	184.497
+]
+  keys = { x24 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 121: GenericProjectionFactor, z = [
+	207.608;
+	181.205
+]
+  keys = { x25 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 122: GenericProjectionFactor, z = [
+	200.557;
+	177.501
+]
+  keys = { x26 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 123: GenericProjectionFactor, z = [
+	192.566;
+	173.304
+]
+  keys = { x27 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 124: GenericProjectionFactor, z = [
+	183.434;
+	168.507
+]
+  keys = { x28 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 125: GenericProjectionFactor, z = [
+	172.898;
+	162.973
+]
+  keys = { x29 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 126: GenericProjectionFactor, z = [
+	160.607;
+	156.518
+]
+  keys = { x30 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 127: GenericProjectionFactor, z = [
+	146.084;
+	148.89
+]
+  keys = { x31 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 128: GenericProjectionFactor, z = [
+	128.659;
+	139.737
+]
+  keys = { x32 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 129: GenericProjectionFactor, z = [
+	107.366;
+	128.553
+]
+  keys = { x33 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 130: GenericProjectionFactor, z = [
+	80.7553;
+	114.576
+]
+  keys = { x34 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 131: GenericProjectionFactor, z = [
+	46.5524;
+	96.6117
+]
+  keys = { x35 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 132: GenericProjectionFactor, z = [
+	0.96646;
+	72.6682
+]
+  keys = { x36 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 133: GenericProjectionFactor, z = [
+	-62.8193;
+	39.1653
+]
+  keys = { x37 l1 }
+isotropic dim=2 sigma=1000
+
+Factor 134: GenericProjectionFactor, z = [
+	283.576;
+	217.098
+]
+  keys = { x38 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 135: GenericProjectionFactor, z = [
+	281.909;
+	216.041
+]
+  keys = { x39 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 136: GenericProjectionFactor, z = [
+	280.083;
+	214.884
+]
+  keys = { x40 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 137: GenericProjectionFactor, z = [
+	278.076;
+	213.612
+]
+  keys = { x41 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 138: GenericProjectionFactor, z = [
+	275.859;
+	212.207
+]
+  keys = { x42 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 139: GenericProjectionFactor, z = [
+	273.398;
+	210.647
+]
+  keys = { x43 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 140: GenericProjectionFactor, z = [
+	270.65;
+	208.905
+]
+  keys = { x44 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 141: GenericProjectionFactor, z = [
+	267.561;
+	206.947
+]
+  keys = { x45 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 142: GenericProjectionFactor, z = [
+	264.065;
+	204.731
+]
+  keys = { x46 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 143: GenericProjectionFactor, z = [
+	260.073;
+	202.201
+]
+  keys = { x47 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 144: GenericProjectionFactor, z = [
+	255.474;
+	199.286
+]
+  keys = { x48 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 145: GenericProjectionFactor, z = [
+	250.117;
+	195.891
+]
+  keys = { x49 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 146: GenericProjectionFactor, z = [
+	243.799;
+	191.887
+]
+  keys = { x50 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 147: GenericProjectionFactor, z = [
+	236.234;
+	187.092
+]
+  keys = { x51 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 148: GenericProjectionFactor, z = [
+	227.014;
+	181.248
+]
+  keys = { x52 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 149: GenericProjectionFactor, z = [
+	215.527;
+	173.968
+]
+  keys = { x53 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 150: GenericProjectionFactor, z = [
+	200.823;
+	164.649
+]
+  keys = { x54 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 151: GenericProjectionFactor, z = [
+	181.329;
+	152.293
+]
+  keys = { x55 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 152: GenericProjectionFactor, z = [
+	154.248;
+	135.129
+]
+  keys = { x56 l2 }
+isotropic dim=2 sigma=1000
+
+Factor 153: GenericProjectionFactor, z = [
+	467.139;
+	277.196
+]
+  keys = { x57 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 154: GenericProjectionFactor, z = [
+	473.454;
+	278.776
+]
+  keys = { x58 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 155: GenericProjectionFactor, z = [
+	480.337;
+	280.499
+]
+  keys = { x59 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 156: GenericProjectionFactor, z = [
+	487.869;
+	282.383
+]
+  keys = { x60 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 157: GenericProjectionFactor, z = [
+	496.145;
+	284.454
+]
+  keys = { x61 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 158: GenericProjectionFactor, z = [
+	505.283;
+	286.741
+]
+  keys = { x62 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 159: GenericProjectionFactor, z = [
+	515.423;
+	289.279
+]
+  keys = { x63 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 160: GenericProjectionFactor, z = [
+	526.741;
+	292.111
+]
+  keys = { x64 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 161: GenericProjectionFactor, z = [
+	539.455;
+	295.293
+]
+  keys = { x65 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 162: GenericProjectionFactor, z = [
+	553.838;
+	298.892
+]
+  keys = { x66 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 163: GenericProjectionFactor, z = [
+	570.245;
+	302.998
+]
+  keys = { x67 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 164: GenericProjectionFactor, z = [
+	589.133;
+	307.724
+]
+  keys = { x68 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 165: GenericProjectionFactor, z = [
+	611.112;
+	313.225
+]
+  keys = { x69 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 166: GenericProjectionFactor, z = [
+	637.008;
+	319.705
+]
+  keys = { x70 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 167: GenericProjectionFactor, z = [
+	667.97;
+	327.453
+]
+  keys = { x71 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 168: GenericProjectionFactor, z = [
+	705.648;
+	336.882
+]
+  keys = { x72 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 169: GenericProjectionFactor, z = [
+	752.49;
+	348.604
+]
+  keys = { x73 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 170: GenericProjectionFactor, z = [
+	812.303;
+	363.572
+]
+  keys = { x74 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 171: GenericProjectionFactor, z = [
+	891.342;
+	383.351
+]
+  keys = { x75 l3 }
+isotropic dim=2 sigma=1000
+
+Factor 172: GenericProjectionFactor, z = [
+	528.657;
+	334.262
+]
+  keys = { x76 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 173: GenericProjectionFactor, z = [
+	538.039;
+	338.488
+]
+  keys = { x77 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 174: GenericProjectionFactor, z = [
+	548.306;
+	343.113
+]
+  keys = { x78 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 175: GenericProjectionFactor, z = [
+	559.591;
+	348.196
+]
+  keys = { x79 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 176: GenericProjectionFactor, z = [
+	572.053;
+	353.809
+]
+  keys = { x80 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 177: GenericProjectionFactor, z = [
+	585.884;
+	360.04
+]
+  keys = { x81 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 178: GenericProjectionFactor, z = [
+	601.325;
+	366.995
+]
+  keys = { x82 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 179: GenericProjectionFactor, z = [
+	618.674;
+	374.81
+]
+  keys = { x83 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 180: GenericProjectionFactor, z = [
+	638.308;
+	383.653
+]
+  keys = { x84 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 181: GenericProjectionFactor, z = [
+	660.71;
+	393.744
+]
+  keys = { x85 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 182: GenericProjectionFactor, z = [
+	686.509;
+	405.365
+]
+  keys = { x86 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 183: GenericProjectionFactor, z = [
+	716.542;
+	418.893
+]
+  keys = { x87 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 184: GenericProjectionFactor, z = [
+	751.944;
+	434.84
+]
+  keys = { x88 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 185: GenericProjectionFactor, z = [
+	794.298;
+	453.917
+]
+  keys = { x89 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 186: GenericProjectionFactor, z = [
+	845.871;
+	477.148
+]
+  keys = { x90 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 187: GenericProjectionFactor, z = [
+	910.044;
+	506.054
+]
+  keys = { x91 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 188: GenericProjectionFactor, z = [
+	992.075;
+	543.004
+]
+  keys = { x92 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 189: GenericProjectionFactor, z = [
+	1100.62;
+	591.899
+]
+  keys = { x93 l4 }
+isotropic dim=2 sigma=1000
+
+Factor 190: GenericProjectionFactor, z = [
+	1251.03;
+	659.648
+]
+  keys = { x94 l4 }
+isotropic dim=2 sigma=1000
+
+converged
+errorThreshold: 0.000365998 <? 0
+absoluteDecrease: 5.01676321394e-09 <? 1e-05
+relativeDecrease: 1.37068906626e-05 <? 1e-05
+iterations: 7 >? 500
+
+Optimization complete
+initial error =  18.86023557515761
+final error =  0.00036599799131733666
