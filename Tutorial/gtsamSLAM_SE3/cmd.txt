@@ -1,7 +1,11 @@
-python txt-g2o.py data/noisy-ldmk.txt data/noise.g2o
-python txt-g2o.py data/new_opt.txt data/new_opt.g2o
+python gen_info.py data/gt-ldmk.txt data/noise-ldmk.txt
+python code.py data/noise-ldmk.txt data/opt-ldmk.txt
+
+python txt-g2o.py data/noise-ldmk.txt data/noise.g2o
+python txt-g2o.py data/opt-ldmk.txt data/opt.g2o
 python evo.py data/noise.g2o data/evo/noise.kitti 
-python evo.py data/new_opt.g2o data/evo/opt.kitti 
+python evo.py data/opt.g2o data/evo/opt.kitti 
+
 cd data/evo
 evo_ape kitti gt.kitti noise.kitti -va --plot --plot_mode xyz
-evo_ape kitti gt.kitti opt.kitti -va --plot --plot_mode xy
+evo_ape kitti gt.kitti opt.kitti -va --plot --plot_mode xyz

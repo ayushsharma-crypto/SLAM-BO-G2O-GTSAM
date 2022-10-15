@@ -152,7 +152,7 @@ def gtsam_optimisation(xN, yN, zN, QxN, QyN, QzN, QwN, noise_ldmk, range_bearing
 		graph.add(observation_edge)
         
 
-	print("GRAPH START : \n\n", graph)
+	# print("GRAPH START : \n\n", graph)
 	
 	params = gtsam.LevenbergMarquardtParams()
 	if print_log:
