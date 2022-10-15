@@ -9,3 +9,5 @@ python evo.py data/opt.g2o data/evo/opt.kitti
 cd data/evo
 evo_ape kitti gt.kitti noise.kitti -va --plot --plot_mode xyz
 evo_ape kitti gt.kitti opt.kitti -va --plot --plot_mode xyz
+
+python plot.py data/gt-ldmk.txt data/noise-ldmk.txt data/opt-ldmk.txt

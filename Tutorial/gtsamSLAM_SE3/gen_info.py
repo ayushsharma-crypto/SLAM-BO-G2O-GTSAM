@@ -257,11 +257,6 @@ def addNoise(X, Y, Z, Qx, Qy, Qz, Qw):
 
 
 if __name__=="__main__":
-    # FILE_NAME = "./data/problem-13682-4456117-pre.txt.bz2"
-    # FILE_NAME = "./data/problem-1064-113655-pre.txt.bz2"
-    # FILE_NAME = "./data/trafalgar.bz2"
-    # camera_params, points_3d, camera_indices, point_indices, points_2d = read_bal_data(FILE_NAME)
-    # X, Y, Z, Qx, Qy, Qz, Qw = get_poses(camera_params[:,:3], camera_params[:,3:6])
     
     X, Y, Z, Qx, Qy, Qz, Qw, LDMK, measurement = get_traj()
     xN, yN, zN, QxN, QyN, QzN, QwN = addNoise(X, Y, Z, Qx, Qy, Qz, Qw)

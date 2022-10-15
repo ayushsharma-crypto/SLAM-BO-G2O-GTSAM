@@ -216,7 +216,7 @@ if __name__=="__main__":
     xN, yN, zN, QxN, QyN, QzN, QwN , noise_ldmk, range_bearing, pose_count, ldmk_count, obs_count = get_input(argv[1])
 
 
-    pose_sigma = np.array([2000]*6)
+    pose_sigma = np.array([20]*6)
 
     final_x, final_y, final_z, final_qx, final_qy, final_qz, final_qw, final_ldmk = gtsam_optimisation(xN, yN, zN, QxN, QyN, QzN, QwN , noise_ldmk, range_bearing, pose_sigma, True)
 
